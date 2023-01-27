@@ -1,5 +1,5 @@
 # quiz-programacao
-Quiz sobre programação. Projeto React do canal do @MatheusBattisti no youtube.
+Quiz sobre programação. Projeto React do canal do @MatheusBattisti no youtube. Ótimo para entender e praticar a aplicação do UseContext.
 
 
 ###screenshots
