@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body, html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .8rem 1.5rem;
+  background: linear-gradient(90deg, rgba(132, 53, 222, 1) 0%,
+  rgba(184, 84, 232, 1) 100%);
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.1);
+}

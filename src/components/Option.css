@@ -1,0 +1,34 @@
+.option {
+  background-color: rgba(69, 14, 136, 0.64);
+  border: 2px solid rgba(37, 11, 63, 0.327);
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.option:hover {
+  background-color: rgb(82, 37, 125);
+  cursor: pointer;
+}
+
+.correct,
+.correct:hover {
+  background-color: #0bfc03;
+}
+
+.wrong,
+.wrong:hover {
+  background-color: #2d0b55;
+}
+
+@media screen and (max-width: 769px) {
+  .option p {
+    padding: 0.5;
+    width: 60vw;
+  }
+}

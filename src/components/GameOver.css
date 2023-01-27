@@ -1,0 +1,26 @@
+#gameover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:is(p) {
+    color: #8435de;
+    font-size: 1.2rem;
+}
+
+:is(h2, p) {
+    margin-bottom: 1rem;
+}
+
+:is(img)  {
+    margin: 2rem;
+    height: 50vh;
+}
+
+:is(button) {
+    margin-top: -1rem;
+}
+

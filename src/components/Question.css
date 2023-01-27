@@ -1,0 +1,30 @@
+#question {
+    width: 50rem;
+    background-color: #8435de;
+    border-radius: 1rem;
+    padding: 2rem;
+ }
+
+ #question h2, #question p {
+   color: white;
+ }
+
+
+ #question button {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    padding: .8rem 1.5rem;
+    background: linear-gradient(90deg, rgb(91, 13, 179) 0%,
+    rgb(150, 32, 204) 100%);
+    border-radius: 3rem;
+    border: solid 1px white;
+  }
+
+ @media screen and (max-width: 769px) {
+   #question {
+      width: 90%;
+   }
+ }
